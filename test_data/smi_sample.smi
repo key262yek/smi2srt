@@ -1,0 +1,30 @@
+<SAMI>
+<HEAD>
+   <STYLE TYPE = "text/css">
+   <!--
+   /* P defines the basic style selector for closed caption paragraph text */
+   P {font-family:sans-serif; color:white;}
+   /* Source, Small, and Big define additional ID selectors for closed caption text */
+   #Source {color: orange; font-family: arial; font-size: 12pt;}
+   #Small {Name: SmallTxt; font-size: 8pt; color: yellow;}
+   #Big {Name: BigTxt; font-size: 12pt; color: magenta;}
+   /* ENUSCC and FRFRCC define language class selectors for closed caption text */
+   .ENUSCC {Name: 'English Captions';lang: en-US; SAMIType: CC;}
+   .FRFRCC {Name: 'French Captions'; lang: fr-FR; SAMIType: CC;}
+   -->
+   </STYLE>
+</HEAD>
+<BODY>
+   <!<entity type="mdash"/>- The closed caption text displays at 1000 milliseconds. -->
+   <SYNC Start = 1000>
+      <!-- English closed captions -->
+      <P Class = ENUSCC ID = Source>Narrator
+      <P Class = ENUSCC>Great reason to visit Seattle, brought to you by two out-of-staters.
+      <!-- French closed captions -->
+      <P Class = FRFRCC ID = Source>Narrateur
+      <P Class = FRFRCC>Deux personnes ne venant la r&eacute;gion vous donnent de bonnes raisons de visiter Seattle.
+  
+
+
+</BODY>
+</SAMI>
