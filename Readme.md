@@ -2,7 +2,7 @@
 ==============  SMI  to   SRT  ===================
 ==================================================
 
-This program is to convert smi files, which are located in subdirectory of current working directory, to srt files.
+This program converts smi files, which are located in subdirectory of current working directory, to srt files.
 It provide the following functions.
 
 1. smi2srt convertion
